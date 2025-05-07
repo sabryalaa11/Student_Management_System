@@ -1,4 +1,4 @@
-# project
+# Student Management System
 first project
 Professional Graphical Interface:
 Main window with a button menu
