@@ -1,41 +1,44 @@
 # Student Management System
-first project
-Professional Graphical Interface:
-Main window with a button menu
 
-Table to display student data
+A Python-based student management system with a graphical user interface.
 
-Search bar to find students
+## Features
 
-Dialog windows for adding and editing student data
+- Student information management
+- GUI interface for easy interaction
+- Data storage using CSV files
 
-Advanced Features:
-Add new students with input validation
+## Requirements
 
-Search for students by name or ID
+- Python 3.x
+- Required packages are listed in `requirements.txt`
 
-Delete students with confirmation prompt
+## Installation
 
-Edit existing student information
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+```
 
-Display attendance classification for each student
+2. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
-Automatically calculate average and final grade
+## Usage
 
-User Interface Enhancements:
-Well-formatted data table
+Run the main application:
+```bash
+python APP.py
+```
 
-Clear and user-friendly buttons
+## Project Structure
 
-Confirmation and alert messages
+- `APP.py` - Main application file
+- `student_gui.py` - GUI implementation
+- `students.csv` - Student data storage
+- `calculator/` - Calculator module
 
-Ability to add multiple subjects per student
+## License
 
-Input validation for all fields
-
-Data Saving:
-Save data in a CSV file
-
-Automatically load data when the program starts
-
-Save changes instantly
+This project is open source and available under the MIT License. 
